@@ -1,36 +1,25 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import resumeBackground from '../images/CV.jpg';
-import axios from 'axios';
+import { jsPDF } from 'jspdf';
 
 const Resume = () => {
   const downloadResume = async () => {
-    const response = await fetch(resumeBackground);
-    const blob = await response.blob();
-  
-    const reader = new FileReader();
-    reader.onload = async () => {
-      const base64Image = reader.result.split(',')[1];
-  
-      axios.post('http://localhost:3000/api/downloadpdf', { image: base64Image }, { responseType: 'arraybuffer' })
-        .then(response => {
-          const file = new Blob([response.data], { type: 'application/pdf' });
-          const fileURL = URL.createObjectURL(file);
-          
-          const a = document.createElement('a');
-          a.href = fileURL;
-          a.download = 'CV Liran Bashari.pdf';
-          document.body.appendChild(a);
-          a.click();
-          window.URL.revokeObjectURL(fileURL);
-        })
-        .catch(error => {
-          console.error(error);
-        });
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    const img = new Image();
+    img.src = resumeBackground;
+    img.onload = () => {
+      canvas.width = img.width;
+      canvas.height = img.height;
+      ctx.drawImage(img, 0, 0);
+      const imageData = canvas.toDataURL('image/jpeg');
+      
+      const pdf = new jsPDF();
+      pdf.addImage(imageData, 'JPEG', 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
+      pdf.save('CV_Liran_Bashari.pdf');
     };
-    reader.readAsDataURL(blob);
   };
-  
   
 
   return (
