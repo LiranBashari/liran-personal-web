@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/LiranBashari/liran-personal-web.git/static/css/main.88d613cd.css",
+    "main.js": "/LiranBashari/liran-personal-web.git/static/js/main.b42adff3.js",
+    "static/js/300.abcc0ca1.chunk.js": "/LiranBashari/liran-personal-web.git/static/js/300.abcc0ca1.chunk.js",
+    "static/js/952.66ee773a.chunk.js": "/LiranBashari/liran-personal-web.git/static/js/952.66ee773a.chunk.js",
+    "static/js/64.8e68eb15.chunk.js": "/LiranBashari/liran-personal-web.git/static/js/64.8e68eb15.chunk.js",
+    "static/js/592.599f76a2.chunk.js": "/LiranBashari/liran-personal-web.git/static/js/592.599f76a2.chunk.js",
+    "static/media/simulator.jpg": "/LiranBashari/liran-personal-web.git/static/media/simulator.f6e58e827732a9ff2f6b.jpg",
+    "static/media/CV.jpg": "/LiranBashari/liran-personal-web.git/static/media/CV.d1ef80e526e897235767.jpg",
+    "static/media/profile.jpg": "/LiranBashari/liran-personal-web.git/static/media/profile.e4f33c5887bd8a895b1f.jpg",
+    "static/media/chatting.jpg": "/LiranBashari/liran-personal-web.git/static/media/chatting.b72e1b983463afff16ea.jpg",
+    "index.html": "/LiranBashari/liran-personal-web.git/index.html",
+    "main.88d613cd.css.map": "/LiranBashari/liran-personal-web.git/static/css/main.88d613cd.css.map",
+    "main.b42adff3.js.map": "/LiranBashari/liran-personal-web.git/static/js/main.b42adff3.js.map",
+    "300.abcc0ca1.chunk.js.map": "/LiranBashari/liran-personal-web.git/static/js/300.abcc0ca1.chunk.js.map",
+    "952.66ee773a.chunk.js.map": "/LiranBashari/liran-personal-web.git/static/js/952.66ee773a.chunk.js.map",
+    "64.8e68eb15.chunk.js.map": "/LiranBashari/liran-personal-web.git/static/js/64.8e68eb15.chunk.js.map",
+    "592.599f76a2.chunk.js.map": "/LiranBashari/liran-personal-web.git/static/js/592.599f76a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d613cd.css",
+    "static/js/main.b42adff3.js"
+  ]
+}
