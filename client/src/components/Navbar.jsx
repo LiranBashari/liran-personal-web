@@ -10,16 +10,16 @@ const Navbar = ({backgroundColor}) => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link pe-4" activeClassName="active" exact to="/">Home</NavLink>
+              <NavLink className="nav-link pe-4" activeclassname="active" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link pe-4" activeClassName="active" to="/portfolio">Portfolio</NavLink>
+              <NavLink className="nav-link pe-4" activeclassname="active" to="/portfolio">Portfolio</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link pe-4" activeClassName="active" to="/resume">Resume</NavLink>
+              <NavLink className="nav-link pe-4" activeclassname="active" to="/resume">Resume</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link pe-4" activeClassName="active" to="/contact">Contact</NavLink>
+              <NavLink className="nav-link pe-4" activeclassname="active" to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>

@@ -1,12 +1,37 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import resumeBackground from '../images/CV.jpg';
+import axios from 'axios';
 
 const Resume = () => {
-
-  const downloadResume = () => {
-    // Logic to download the resume file
+  const downloadResume = async () => {
+    const response = await fetch(resumeBackground);
+    const blob = await response.blob();
+  
+    const reader = new FileReader();
+    reader.onload = async () => {
+      const base64Image = reader.result.split(',')[1];
+  
+      axios.post('http://localhost:3000/api/downloadpdf', { image: base64Image }, { responseType: 'arraybuffer' })
+        .then(response => {
+          const file = new Blob([response.data], { type: 'application/pdf' });
+          const fileURL = URL.createObjectURL(file);
+          
+          const a = document.createElement('a');
+          a.href = fileURL;
+          a.download = 'CV Liran Bashari.pdf';
+          document.body.appendChild(a);
+          a.click();
+          window.URL.revokeObjectURL(fileURL);
+        })
+        .catch(error => {
+          console.error(error);
+        });
+    };
+    reader.readAsDataURL(blob);
   };
+  
+  
 
   return (
     <div className='background'>
@@ -19,7 +44,7 @@ const Resume = () => {
         </div>
         <div className="row justify-content-center pt-3">
           <button onClick={downloadResume} className="download-resume">
-            Download as PDF
+            Click to download as PDF file
           </button>
         </div>
         </div>
