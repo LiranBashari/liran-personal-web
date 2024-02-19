@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/liran-personal-web/static/css/main.88d613cd.css",
-    "main.js": "/liran-personal-web/static/js/main.856fc80c.js",
+    "main.css": "/liran-personal-web/static/css/main.bc8b2c37.css",
+    "main.js": "/liran-personal-web/static/js/main.1052d44d.js",
     "static/js/300.abcc0ca1.chunk.js": "/liran-personal-web/static/js/300.abcc0ca1.chunk.js",
     "static/js/952.66ee773a.chunk.js": "/liran-personal-web/static/js/952.66ee773a.chunk.js",
     "static/js/64.8e68eb15.chunk.js": "/liran-personal-web/static/js/64.8e68eb15.chunk.js",
@@ -11,15 +11,15 @@
     "static/media/profile.jpg": "/liran-personal-web/static/media/profile.e4f33c5887bd8a895b1f.jpg",
     "static/media/chatting.jpg": "/liran-personal-web/static/media/chatting.b72e1b983463afff16ea.jpg",
     "index.html": "/liran-personal-web/index.html",
-    "main.88d613cd.css.map": "/liran-personal-web/static/css/main.88d613cd.css.map",
-    "main.856fc80c.js.map": "/liran-personal-web/static/js/main.856fc80c.js.map",
+    "main.bc8b2c37.css.map": "/liran-personal-web/static/css/main.bc8b2c37.css.map",
+    "main.1052d44d.js.map": "/liran-personal-web/static/js/main.1052d44d.js.map",
     "300.abcc0ca1.chunk.js.map": "/liran-personal-web/static/js/300.abcc0ca1.chunk.js.map",
     "952.66ee773a.chunk.js.map": "/liran-personal-web/static/js/952.66ee773a.chunk.js.map",
     "64.8e68eb15.chunk.js.map": "/liran-personal-web/static/js/64.8e68eb15.chunk.js.map",
     "592.599f76a2.chunk.js.map": "/liran-personal-web/static/js/592.599f76a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88d613cd.css",
-    "static/js/main.856fc80c.js"
+    "static/css/main.bc8b2c37.css",
+    "static/js/main.1052d44d.js"
   ]
 }
