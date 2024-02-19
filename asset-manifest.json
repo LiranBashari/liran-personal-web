@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/liran-personal-web/static/css/main.88d613cd.css",
-    "main.js": "/liran-personal-web/static/js/main.e1c6eeee.js",
+    "main.js": "/liran-personal-web/static/js/main.856fc80c.js",
     "static/js/300.abcc0ca1.chunk.js": "/liran-personal-web/static/js/300.abcc0ca1.chunk.js",
     "static/js/952.66ee773a.chunk.js": "/liran-personal-web/static/js/952.66ee773a.chunk.js",
     "static/js/64.8e68eb15.chunk.js": "/liran-personal-web/static/js/64.8e68eb15.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/chatting.jpg": "/liran-personal-web/static/media/chatting.b72e1b983463afff16ea.jpg",
     "index.html": "/liran-personal-web/index.html",
     "main.88d613cd.css.map": "/liran-personal-web/static/css/main.88d613cd.css.map",
-    "main.e1c6eeee.js.map": "/liran-personal-web/static/js/main.e1c6eeee.js.map",
+    "main.856fc80c.js.map": "/liran-personal-web/static/js/main.856fc80c.js.map",
     "300.abcc0ca1.chunk.js.map": "/liran-personal-web/static/js/300.abcc0ca1.chunk.js.map",
     "952.66ee773a.chunk.js.map": "/liran-personal-web/static/js/952.66ee773a.chunk.js.map",
     "64.8e68eb15.chunk.js.map": "/liran-personal-web/static/js/64.8e68eb15.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.88d613cd.css",
-    "static/js/main.e1c6eeee.js"
+    "static/js/main.856fc80c.js"
   ]
 }
