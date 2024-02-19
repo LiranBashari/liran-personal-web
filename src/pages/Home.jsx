@@ -6,9 +6,9 @@ import { faGraduationCap, faBriefcase, faUser } from '@fortawesome/free-solid-sv
 
 const Home = () => {
   return (
-    <div style={{ height: '100vh', width: '100vw'}}>
+    <div style={{ height: '100vh', width: '100vw', overflowX: 'hidden' }}>
       <Navbar backgroundColor="bg-dark" />
-      <div className="container-fluid" style={{ overflowX: 'auto', whiteSpace: 'nowrap' }}>
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-2 p-4">
             <img src={profile} alt="profile" className="img-fluid rounded-circle" />
