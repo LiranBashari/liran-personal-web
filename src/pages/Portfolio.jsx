@@ -8,13 +8,13 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
 const Portfolio = () => {
   return (
-    <div className='background'>
+    <div>
       <Navbar backgroundColor="bg-dark"/>
       <Container>
         <Carousel className='pt-5'>
           <Carousel.Item>
             <Card>
-              <Card.Img variant="top" src={chatImage} style={{ maxHeight: '800px'}} />
+              <Card.Img variant="top" src={chatImage} style={{ maxHeight: '500px'}} />
               <Card.Body>
                 <Card.Title>Real-Time Chat Application</Card.Title>
                 <Card.Text style={{ fontSize: '1.2rem'}}>
@@ -30,7 +30,7 @@ const Portfolio = () => {
           </Carousel.Item>
           <Carousel.Item>
             <Card>
-              <Card.Img variant="top" src={flightSimulatorImage} style={{ maxHeight: '800px'}} />
+              <Card.Img variant="top" src={flightSimulatorImage} style={{ maxHeight: '500px'}} />
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold' }}>Desktop Application For Detecting Anomalies In A Flight Simulation</Card.Title>
                 <Card.Text style={{ fontSize: '1.2rem'}}>

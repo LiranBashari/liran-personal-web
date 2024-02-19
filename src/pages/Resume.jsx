@@ -20,7 +20,6 @@ const Resume = () => {
       pdf.save('CV_Liran_Bashari.pdf');
     };
   };
-  
 
   return (
     <div className='background'>
@@ -28,16 +27,16 @@ const Resume = () => {
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
-            <img src={resumeBackground} alt="profile"  style={{height: '65rem'}}/>
+            <img src={resumeBackground} alt="profile"  style={{maxWidth: '100%', height: 'auto'}}/>
           </div>
         </div>
-        <div className="row justify-content-center pt-3">
-          <button onClick={downloadResume} className="download-resume">
+        <div className="text-center p-3">
+          <button className="download-resume" onClick={downloadResume} style={{ width: '100%' }}>
             Click to download as PDF file
           </button>
         </div>
-        </div>
       </div>
+    </div>
   );
 };
 

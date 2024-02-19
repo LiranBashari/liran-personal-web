@@ -5,19 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  overflow: hidden;
-
+  background-color: rgb(59, 63, 66) !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.background{
-  height: 100vh;
-  background-color: rgb(59, 63, 66)
 }
 
 .download-resume {
@@ -31,7 +24,7 @@ code {
   font-size: 18px;
   font-weight: 600;
   outline: 0;
-  padding: 16px 21px;
+  padding: 16px 90px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -65,3 +58,5 @@ code {
     padding: 16px 48px;
   }
 }
+
+

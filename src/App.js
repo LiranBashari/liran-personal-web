@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     
-    <BrowserRouter>
+    <BrowserRouter basename="/liran-personal-web">
         <Routes>
           <Route path="/" element={<Home/>}> </Route>
           <Route path="/resume" element={<Resume/>}> </Route>

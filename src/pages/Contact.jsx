@@ -1,12 +1,12 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
-import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import Navbar from '../components/Navbar'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Navbar from '../components/Navbar';
 
 const Contact = () => {
   return (
-    <div className='background'>
+    <div>
       <Navbar backgroundColor="bg-dark"/>
       <div className="container">
         <h1 className='text-white pt-5 display-1'>
@@ -14,7 +14,7 @@ const Contact = () => {
         </h1>
         <br/>
         <div className="row mt-5">
-          <div className="col-md-6 pt-5 pr-4">
+          <div className="col-md-6 pt-5 pr-md-4">
             <h3 className="text-white display-5">
               <FontAwesomeIcon icon={faPhoneAlt} className="mr-3"/> Phone Number
             </h3>
@@ -24,7 +24,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-6 pt-5 pr-4">
+          <div className="col-md-6 pt-5 pr-md-4">
             <h3 className="text-white display-5">
               <FontAwesomeIcon icon={faGithubSquare} className="mr-3"/> GitHub
             </h3>
@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="row mt-5">
-          <div className="col-md-6 pt-5 pr-4">
+          <div className="col-md-6 pt-5 pr-md-4">
             <h3 className="text-white display-5">
               <FontAwesomeIcon icon={faLinkedin} className="mr-3"/> LinkedIn
             </h3>
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
