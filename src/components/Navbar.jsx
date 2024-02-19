@@ -16,7 +16,7 @@ const Navbar = ({ backgroundColor }) => {
           aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="navbar-collapse collapse justify-content-end" id="navbarNav">
+        <div className="navbar-collapse collapse justify-content-end" id="navbar">
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink className="nav-link pe-lg-4" activeclassname="active" to="/">Home</NavLink>
