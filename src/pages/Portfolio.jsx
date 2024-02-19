@@ -14,7 +14,7 @@ const Portfolio = () => {
         <Carousel className='pt-5'>
           <Carousel.Item>
             <Card>
-              <Card.Img variant="top" src={chatImage} style={{ maxHeight: '40vh'}} />
+              <Card.Img variant="top" src={chatImage} style={{ maxHeight: '50vh'}} />
               <Card.Body>
                 <Card.Title>Real-Time Chat Application</Card.Title>
                 <Card.Text style={{ fontSize: '1rem'}}>
@@ -30,7 +30,7 @@ const Portfolio = () => {
           </Carousel.Item>
           <Carousel.Item>
             <Card>
-              <Card.Img variant="top" src={flightSimulatorImage} style={{ maxHeight: '40vh'}} />
+              <Card.Img variant="top" src={flightSimulatorImage} style={{ maxHeight: '50vh'}} />
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold' }}>Desktop Application For Detecting Anomalies In A Flight Simulation</Card.Title>
                 <Card.Text style={{ fontSize: '1rem' , overflowWrap: 'break-word'}}>
