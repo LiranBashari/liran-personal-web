@@ -40,7 +40,7 @@ const Contact = () => {
             </h3>
           </div>
           <div className="col-md-6 pt-5">
-            <a href="https://www.linkedin.com/in/liran-bashari-3a0129216/" className="text-white display-6" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>https://www.linkedin.com/in/liran-bashari/</a>
+            <a href="https://www.linkedin.com/in/liran-bashari-3a0129216/" className="text-white display-6" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>https://www.linkedin.com/in/liran-bashari</a>
           </div>
         </div>
       </div>
