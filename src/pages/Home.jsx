@@ -6,7 +6,7 @@ import { faGraduationCap, faBriefcase, faUser } from '@fortawesome/free-solid-sv
 
 const Home = () => {
   return (
-    <div style={{ height: '100vh', width: '100vw' }}>
+    <div style={{ height: '100vh', width: '100vw', overflow: 'hidden' }}>
       <Navbar backgroundColor="bg-dark" />
       <div className="container-fluid">
         <div className="row">
