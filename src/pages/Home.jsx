@@ -17,7 +17,7 @@ const Home = () => {
             <h2 className="mb-3 pt- text-white" style={{ fontWeight: 400, fontSize: '45px' }}>
               <FontAwesomeIcon icon={faUser} className="mr-3" /> About Me
             </h2>
-            <h5 className='pt-3 text-white' style={{ fontWeight: 400, fontSize: '22px', lineHeight: '1.8', whiteSpace: 'nowrap' }}>
+            <h5 className='pt-3 text-white' style={{ fontWeight: 400, fontSize: '22px', lineHeight: '1.8', whiteSpace: 'nowrap', overflowWrap: 'break-word'}}>
               Software engineer with 2 years of experience.<br />
               Highly motivated worker, with willingness and determination to learn and to achieve high-quality work.<br />
               Self-learner and a strong team player with Interpersonal skills. Capable of paying attention to details, multitasking and balancing a complex workload.<br />
@@ -48,7 +48,7 @@ const Home = () => {
               <span className="me-4 align-top" style={{ fontSize: '20px' }}>• Developing comprehensive Java-based tests for the company's website and application.</span><br />
               <span className="me-4 align-top" style={{ fontSize: '20px' }}>• Defining test requirements and making proper design before implementation.</span><br />
               <span className="me-4 align-top" style={{ fontSize: '20px' }}>• Developing and integrating Image Comparison feature to enhance automation application's functionality.</span><br />
-              <span className="me-4 align-top" style={{ fontSize: '20px', display: 'inline-block', whiteSpace: 'nowrap' }}>• Proficiently integrating with APIs such as Microsoft Graph and Google Drive to enhance data management and streamline application functionality.</span><br />
+              <span className="me-4 align-top" style={{ fontSize: '20px', display: 'inline-block', whiteSpace: 'nowrap' , overflowWrap: 'break-word'}}>• Proficiently integrating with APIs such as Microsoft Graph and Google Drive to enhance data management and streamline application functionality.</span><br />
               <span className="me-4 align-top" style={{ fontSize: '20px' }}>• Leading refactoring of existing applications.</span>
             </p>
           </div>
