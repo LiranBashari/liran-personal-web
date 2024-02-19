@@ -39,7 +39,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLinkedin} className="mr-3"/> LinkedIn
             </h3>
           </div>
-          <div className="col-md-6 pt-3">
+          <div className="col-md-6 pt-3 pb-3">
             <a href="https://www.linkedin.com/in/liran-bashari-3a0129216/" className="text-white display-5" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>My LinkedIn</a>
           </div>
         </div>
