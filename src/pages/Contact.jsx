@@ -9,40 +9,54 @@ const Contact = () => {
     <div>
       <Navbar backgroundColor="bg-dark"/>
       <div className="container">
-        <h1 className='text-white pt-5 display-1 text-center' style={{ marginLeft: '-20vh' }}>
-          <FontAwesomeIcon icon={faEnvelope} className="mr-3"/> Contact Me
+        <h1 className='text-white pt-5 display-1 text-center'>
+          <FontAwesomeIcon icon={faEnvelope} className="mr-3" style={{ marginBottom: '-0.1em' }}/> Contact Me
         </h1>
         <br/>
         <div className="row mt-5">
           <div className="col-md-4 offset-md-2 pt-3 pr-md-4">
-            <h3 className="text-white display-5">
-              <FontAwesomeIcon icon={faPhoneAlt} className="mr-3"/> Phone
+            <h3 className="text-white display-6 text-center">
+              <FontAwesomeIcon icon={faPhoneAlt} className="mr-3" style={{ transform: 'scaleX(-1)' }}/> Phone
             </h3>
           </div>
           <div className="col-md-6 pt-3">
-            <p className="text-white display-5">053-6204838</p>
+            <p className="text-white display-6">053-6204838</p>
           </div>
         </div>
+
         <div className="row mt-5">
           <div className="col-md-4 offset-md-2 pt-3 pr-md-4">
-            <h3 className="text-white display-5">
+            <h3 className="text-white display-6 text-center">
+              <FontAwesomeIcon icon={faEnvelope} className="mr-3"/> Email
+            </h3>
+          </div>
+          <div className="col-md-6 pt-3">
+            <p className="text-white display-6">liranbashari1@gmail.com</p>
+          </div>
+        </div>
+
+        <div className="row mt-5">
+          <div className="col-md-4 offset-md-2 pt-3 pr-md-4">
+            <h3 className="text-white display-6 text-center">
               <FontAwesomeIcon icon={faGithubSquare} className="mr-3"/> GitHub
             </h3>
           </div>
           <div className="col-md-6 pt-3">
-            <a href="https://github.com/LiranBashari" className="text-white display-5" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>My GitHub</a>
+            <a href="https://github.com/LiranBashari" className="text-white display-6" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>My GitHub</a>
           </div>
         </div>
+
         <div className="row mt-5">
           <div className="col-md-4 offset-md-2 pt-3 pr-md-4">
-            <h3 className="text-white display-5">
+            <h3 className="text-white display-6 text-center">
               <FontAwesomeIcon icon={faLinkedin} className="mr-3"/> LinkedIn
             </h3>
           </div>
           <div className="col-md-6 pt-3 pb-5">
-            <a href="https://www.linkedin.com/in/liran-bashari-3a0129216/" className="text-white display-5" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>My LinkedIn</a>
+            <a href="https://www.linkedin.com/in/liran-bashari-3a0129216/" className="text-white display-6" style={{ display: 'inline-block', whiteSpace: 'nowrap' }}>My LinkedIn</a>
           </div>
         </div>
+
       </div>
     </div>
   );
