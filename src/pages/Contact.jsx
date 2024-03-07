@@ -25,7 +25,7 @@ const Contact = () => {
             </h3>
           </div>
           <div className="col-md-6">
-            <p className="text-white display-6">053-6204838</p>
+            <a href="tel:0536204838" className="text-white display-6">053-6204838</a>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
             </h3>
           </div>
           <div className="col-md-6">
-            <p className="text-white display-6">liranbashari1@gmail.com</p>
+            <a href="mailto:liranbashari1@gmail.com" className="text-white display-6">liranbashari1@gmail.com</a>
           </div>
         </div>
 
