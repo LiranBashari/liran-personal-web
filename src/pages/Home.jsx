@@ -50,7 +50,7 @@ const Home = () => {
             </h2>
             <p className="mb-0 text-white" style={{ fontWeight: 300, lineHeight: '1.6' }}>
               <span style={{ fontSize: '20px' }}>B.Sc. Computer Science | Bar Ilan University.</span><br />
-              <span className="me-4 align-top" style={{ fontSize: '20px' }}>• GPA - 86.2.</span>
+              <span className="me-4 align-top" style={{ fontSize: '20px' }}>• GPA - 86</span>
             </p>
           </div>
         </div>

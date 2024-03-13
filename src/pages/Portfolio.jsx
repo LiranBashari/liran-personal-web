@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import { Container, Carousel, Card } from 'react-bootstrap';
 import chatImage from '../images/chatting.jpg'
 import flightSimulatorImage from '../images/simulator.jpg'
+import droneImage from '../images/drone.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
@@ -40,6 +41,21 @@ const Portfolio = () => {
                   The app will play the data like a movie from the beginning of the recording until the end, it will graphically display the plane in relation to the earth, 
                   the rudder position, and additional flight data in a number of different views, including a view designed to find anomalies in the data. <br/>
                   <span style={{ fontSize: '1rem', fontWeight: 'bold' }}>MVVM architecture, C#, WPF, .NET</span>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <Card>
+              <Card.Img variant="top" src={droneImage} style={{ maxHeight: '50vh'}} />
+              <Card.Body>
+                <Card.Title style={{fontWeight: 'bold' }}>Comprehensive Drone Scheduler Backend System</Card.Title>
+                <Card.Text style={{ fontSize: '1rem' , overflowWrap: 'break-word'}}>
+                  Develop a backend system for scheduling drones for missions within a warehouse environment. <br/>
+                  This system includes database management, RESTful API
+                  development, and scheduling logic to manage drones and their missions effectively. <br/>
+                  <span style={{ fontSize: '1rem', fontWeight: 'bold' }}>Python, FastAPI, MongoDB</span>
                 </Card.Text>
               </Card.Body>
             </Card>
