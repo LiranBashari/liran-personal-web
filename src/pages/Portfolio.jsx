@@ -52,9 +52,9 @@ const Portfolio = () => {
               <Card.Body>
                 <Card.Title style={{fontWeight: 'bold' }}>Comprehensive Drone Scheduler Backend System</Card.Title>
                 <Card.Text style={{ fontSize: '1rem' , overflowWrap: 'break-word'}}>
-                  Develop a backend system for scheduling drones for missions within a warehouse environment. <br/>
+                  Developed a backend system for scheduling drones for missions within a warehouse environment. <br/>
                   This system includes database management, RESTful API
-                  development, and scheduling logic to manage drones and their missions effectively. <br/>
+                  development, Mission Firring mechanism and scheduling logic to manage drones and their missions effectively. <br/>
                   <span style={{ fontSize: '1rem', fontWeight: 'bold' }}>Python, FastAPI, MongoDB</span>
                 </Card.Text>
               </Card.Body>
